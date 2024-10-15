@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "tailwindcss/formatter"
+
+# Call the TailwindFormat CLI with arguments from the command line
+Tailwindcss::Formatter::CLI.start(ARGV)

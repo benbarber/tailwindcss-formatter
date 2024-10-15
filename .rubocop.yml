@@ -1,5 +1,10 @@
 AllCops:
   TargetRubyVersion: 3.0
+  SuggestExtensions: false
+  NewCops: enable
+
+Metrics/CollectionLiteralLength:
+  Enabled: false
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
