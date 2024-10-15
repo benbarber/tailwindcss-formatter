@@ -1,7 +1,7 @@
 # Tailwindcss::Formatter
 
-This Ruby Gem provides a CLI interface for formatting and sorting your Tailwind CSS class
-declarations that are defined in your HTML and ERB templates.
+This Ruby Gem provides a CLI interface for formatting and sorting your Tailwind CSS
+class declarations that are defined in your HTML and ERB templates.
 
 ## Installation
 
@@ -42,14 +42,20 @@ tailwindcss-format "app/**/*.html.erb" -w
 
 `-w | --write`             Writes the formatted class strings back to the file in place.
 
-`-c | --check-formatted`   Fails with exit code 1 if unformatted class declarations are detected, useful for CI integration.
+`-c | --check-formatted`   Raises exit code 1 if unformatted class declarations are detected.
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec`
+to run the tests. You can also run `bin/console` for an interactive prompt that will allow
+you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+To install this gem onto your local machine, run `bundle exec rake install`. To release a
+new version, update the version number in `version.rb`, and then run `bundle exec rake release`,
+which will create a git tag for the version, push git commits and the created tag, and push
+the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/benbarber/tailwindcss-formatter.
+Bug reports and pull requests are welcome on GitHub at
+https://github.com/benbarber/tailwindcss-formatter.
