@@ -41,6 +41,7 @@ tailwindcss-format "app/**/*.html.erb" -w
 ### Flags
 
 `-w | --write`             Writes the formatted class strings back to the file in place.
+
 `-c | --check-formatted`   Fails with exit code 1 if unformatted class declarations are detected, useful for CI integration.
 
 ## Development
