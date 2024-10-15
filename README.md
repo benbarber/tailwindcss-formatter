@@ -1,7 +1,8 @@
 # Tailwindcss::Formatter
 
-This Ruby Gem provides a CLI interface for formatting and sorting your Tailwind CSS
-class declarations that are defined in your HTML and ERB templates.
+This Ruby Gem provides a CLI interface for effortlessly organising and formating Tailwind
+CSS class declarations in your HTML and ERB templates, following the recommended class
+order for cleaner and more maintainable code.
 
 ## Installation
 

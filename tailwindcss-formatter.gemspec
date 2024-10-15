@@ -5,12 +5,14 @@ require_relative "lib/tailwindcss/formatter/version"
 Gem::Specification.new do |spec|
   spec.name = "tailwindcss-formatter"
   spec.version = Tailwindcss::Formatter::VERSION
+  spec.required_ruby_version = ">= 3.0.0"
+
   spec.authors = ["Ben Barber"]
   spec.email = ["contact@benbarber.co.uk"]
-
-  spec.summary = "Format and sort Tailwind CSS classes based on the recommended class order."
   spec.homepage = "https://github.com/benbarber/tailwindcss-formatter#readme"
-  spec.required_ruby_version = ">= 3.0.0"
+
+  spec.summary = "Effortlessly organize and format Tailwind CSS class declarations in your HTML and ERB
+  templates, following the recommended class order for cleaner and more maintainable code."
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/benbarber/tailwindcss-formatter"
