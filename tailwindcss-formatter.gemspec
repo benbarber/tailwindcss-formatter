@@ -6,6 +6,7 @@ Gem::Specification.new do |spec|
   spec.name = "tailwindcss-formatter"
   spec.version = Tailwindcss::Formatter::VERSION
   spec.required_ruby_version = ">= 3.0.0"
+  spec.licenses = %w(MIT)
 
   spec.authors = ["Ben Barber"]
   spec.email = ["contact@benbarber.co.uk"]
