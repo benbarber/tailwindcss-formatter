@@ -2,9 +2,9 @@
 
 # Regex patterns to get the class strings for formatting
 CLASS_REGEX_PATTERNS = [
-  { pattern: /class:\s*"([^"]*)"/, prefix: "class: " },
-  { pattern: /class="\s*([^"]*)"/, prefix: "class=" },
-  { pattern: /className="\s*([^"]*)"/, prefix: "className=" }
+  { pattern: /class:\s*["]([^"]*)["]/, prefix: "class: " },
+  { pattern: /class=\s*["]([^"]*)["]/, prefix: "class=" },
+  { pattern: /className=\s*["]([^"]*)["]/, prefix: "className=" }
 ].freeze
 
 # Default sorting order for Tailwind classes
